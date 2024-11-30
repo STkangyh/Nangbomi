@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generator-pwa-assets": "pwa-assets-generator"
   },
   "dependencies": {
     "@tanstack/react-query": "4",
@@ -18,6 +19,7 @@
     "react-dom": "^18.3.1",
     "react-query": "^3.39.3",
     "react-router-dom": "^7.0.1",
+    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.15"
   },
   "devDependencies": {
@@ -32,7 +34,13 @@
     "globals": "^15.11.0",
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.11.0",
-    "vite": "^5.4.10"
+    "vite": "^5.4.10",
+    "vite-plugin-pwa": "^0.21.1"
   },
-  "packageManager": "yarn@4.5.2"
+  "packageManager": "yarn@4.5.2",
+  "dependenciesMeta": {
+    "sharp@0.33.5": {
+      "unplugged": true
+    }
+  }
 }
