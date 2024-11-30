@@ -14,8 +14,8 @@ const routes = createBrowserRouter([
     children: [
       { path: "", element: <Home /> },
       {
-        path: "create-with-camera",
-        element: <CreateFoodCamera />,
+        path: "scan-barcode",
+        element: <ScanBarcode />,
         children: [{ path: "/create-detail", element: <CreateDetail /> }],
       },
       { path: "refri-list", element: <RefriList /> },

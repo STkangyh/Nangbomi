@@ -7,17 +7,20 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "generator-pwa-assets": "pwa-assets-generator"
   },
   "dependencies": {
     "@tanstack/react-query": "4",
     "@types/react-query": "^1.2.9",
     "@types/react-router-dom": "^5.3.3",
     "prettier-eslint": "^16.3.0",
+    "quagga": "^0.12.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-query": "^3.39.3",
     "react-router-dom": "^7.0.1",
+    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.15"
   },
   "devDependencies": {
@@ -25,14 +28,23 @@
     "@tanstack/eslint-plugin-query": "4",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
+    "@types/react-router": "^5.1.20",
+    "@vite-pwa/assets-generator": "^0.2.6",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^9.13.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
     "globals": "^15.11.0",
-    "typescript": "~5.6.2",
+    "react-router": "^7.0.1",
+    "typescript": "^5.7.2",
     "typescript-eslint": "^8.11.0",
-    "vite": "^5.4.10"
+    "vite": "^5.4.10",
+    "vite-plugin-pwa": "^0.21.1"
   },
-  "packageManager": "yarn@4.5.2"
+  "packageManager": "yarn@4.5.2",
+  "dependenciesMeta": {
+    "sharp@0.33.5": {
+      "unplugged": true
+    }
+  }
 }
