@@ -16,6 +16,7 @@ export default defineConfig({
       devOptions: {
         enabled: true,
       },
+      includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
       manifest: {
         name: "Nangbomi",
         short_name: "Nangbomi",
@@ -29,7 +30,7 @@ export default defineConfig({
           },
           {
             src: "./public/icon-512.png",
-            sizes: "192x192",
+            sizes: "512x512",
             type: "image/png",
           },
         ],
