@@ -11,6 +11,9 @@
     "generator-pwa-assets": "pwa-assets-generator"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/material": "^6.1.9",
     "@tanstack/react-query": "4",
     "@types/react-query": "^1.2.9",
     "@types/react-router-dom": "^5.3.3",
