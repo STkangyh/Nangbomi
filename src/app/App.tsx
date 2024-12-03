@@ -1,5 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import ProtectedRoute from "../pages/protectedRoute/ui/protectedRoute";
+import Layout from "../pages/protectedRoute/ui/Layout";
 
 const queryClient = new QueryClient();
 
