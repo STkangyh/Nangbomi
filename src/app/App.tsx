@@ -5,6 +5,7 @@ import ProtectedRoute from "../pages/protectedRoute/ui/protectedRoute";
 import Layout from "../pages/protectedRoute/ui/layout";
 import Home from "../pages/home/ui/home";
 import CreateFoodWithCamera from "../pages/createfood/ui/createfoodwithcamera";
+import Camera from "../pages/createfood/ui/camera";
 import CreateFoodDetail from "../pages/createfood/ui/createfooddetail";
 import RefriList from "../pages/refri-list/ui/refriList";
 import RefriDetail from "../pages/refri-list/ui/refridetail";
@@ -32,6 +33,7 @@ const routes = createBrowserRouter([
       { path: "refri-list/:refriId", element: <RefriDetail id={"0"} /> },
     ],
   },
+  { path: "/camera", element: <Camera /> },
   {
     path: "/login",
     element: <Signin />,

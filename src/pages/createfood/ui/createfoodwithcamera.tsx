@@ -1,8 +1,10 @@
 import { Box, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import useOpenCamera from "../model/useOpenCamera";
 
 export default function CreateFoodWithCamera() {
   const navigate = useNavigate();
+  const { openCamera } = useOpenCamera();
   return (
     <Box className="flex flex-col m-2">
       <div className="text-md font-bold mt-10">식품 등록하기</div>
@@ -17,6 +19,7 @@ export default function CreateFoodWithCamera() {
               backgroundColor: "#333",
             },
           }}
+          onClick={openCamera}
         >
           바코드로 입력하기
         </Button>
