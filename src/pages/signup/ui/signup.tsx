@@ -17,13 +17,13 @@ export default function Signup() {
       <fetcher.Form method="post" className="flex flex-col space-y-4">
         <FormControl fullWidth>
           <InputLabel htmlFor="name-input">이름</InputLabel>
-          <OutlinedInput id="name-input" defaultValue="홍길동" label="Name" />
+          <OutlinedInput id="name-input" placeholder="홍길동" label="Name" />
         </FormControl>
         <FormControl fullWidth>
           <InputLabel htmlFor="email-input">이메일</InputLabel>
           <OutlinedInput
             id="email-input"
-            defaultValue="Your-email@gmail.com"
+            placeholder="Your-email@gmail.com"
             label="Email"
           />
         </FormControl>

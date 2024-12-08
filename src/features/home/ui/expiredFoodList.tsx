@@ -28,10 +28,16 @@ export default function ExpiredFoodList({
       {expiredFoodList.length > 0 && (
         <div className="flex flex-row overflow-x-auto gap-3">
           {expiredFoodList.map((food) => (
-            <div key={food.food_id} className="flex flex-col gap-1">
-              <div className="text-sm">{food.food_position}</div>
-              <div className="text-sm overflow-x-auto">{food.food_name}</div>
-            </div>
+            <Card
+              variant="outlined"
+              className="w-1/2 h-1/2 p-4"
+              key={food.food_id}
+            >
+              <div className="text-sm font-light">{food.food_position}</div>
+              <div className="text-sm font-semibold overflow-x-auto">
+                {food.food_name}
+              </div>
+            </Card>
           ))}
         </div>
       )}

@@ -27,7 +27,7 @@ const routes = createBrowserRouter([
         path: "create-with-camera",
         element: <CreateFoodWithCamera />,
       },
-      { path: "/create-detail", element: <CreateFoodDetail /> },
+      { path: "create-detail", element: <CreateFoodDetail /> },
       { path: "refri-list", element: <RefriList /> },
       { path: "refri-list/:refriId", element: <RefriDetail id={"0"} /> },
     ],
