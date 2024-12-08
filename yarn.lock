@@ -1880,6 +1880,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mui/icons-material@npm:^6.1.10":
+  version: 6.1.10
+  resolution: "@mui/icons-material@npm:6.1.10"
+  dependencies:
+    "@babel/runtime": "npm:^7.26.0"
+  peerDependencies:
+    "@mui/material": ^6.1.10
+    "@types/react": ^17.0.0 || ^18.0.0 || ^19.0.0
+    react: ^17.0.0 || ^18.0.0 || ^19.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10c0/970a402962b27219bdff4b7af32e758fea800c6879112887cdc71f0d6869c3ea66e24e320edbc39b704f174511a918a055b96d49b91bdeefb1afe8d753b42d4e
+  languageName: node
+  linkType: hard
+
 "@mui/material@npm:^6.1.9":
   version: 6.1.9
   resolution: "@mui/material@npm:6.1.9"
@@ -6020,6 +6036,7 @@ __metadata:
     "@emotion/react": "npm:^11.13.5"
     "@emotion/styled": "npm:^11.13.5"
     "@eslint/js": "npm:^9.13.0"
+    "@mui/icons-material": "npm:^6.1.10"
     "@mui/material": "npm:^6.1.9"
     "@tanstack/eslint-plugin-query": "npm:4"
     "@tanstack/react-query": "npm:4"

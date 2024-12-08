@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@mui/icons-material": "^6.1.10",
     "@tanstack/eslint-plugin-query": "4",
     "@types/customize-cra": "^1",
     "@types/react": "^18.3.12",
